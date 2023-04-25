@@ -9,5 +9,4 @@ kind:
 !include ./foo.yaml
 ---
 !include ./bar.yaml
----
 
