@@ -1,5 +1,0 @@
-testbar:
-  when: "{{ kind == 'bar' }}"
-  type: str
-  help: any string bar?
-

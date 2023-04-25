@@ -14,10 +14,3 @@ testfoo:
   when: "{{ kind == 'foo' }}"
   type: str
   help: any string foo?
-
-
-# ---
-# !include ./foo.yaml
-# ---
-# !include ./bar.yaml
-
