@@ -5,8 +5,19 @@ kind:
     foo: foo
     bar: bar
 
----
-!include ./foo.yaml
----
-!include ./bar.yaml
+testbar:
+  when: "{{ kind == 'bar' }}"
+  type: str
+  help: any string bar?
+
+testfoo:
+  when: "{{ kind == 'foo' }}"
+  type: str
+  help: any string foo?
+
+
+# ---
+# !include ./foo.yaml
+# ---
+# !include ./bar.yaml
 
