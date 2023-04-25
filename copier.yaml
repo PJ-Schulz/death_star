@@ -1,0 +1,11 @@
+kind:
+  type: str
+  help: What kind do you need?
+  choices:
+    foo: foo
+    bar: bar
+
+---
+!include ./foo.yaml
+---
+!include ./bar.yaml
