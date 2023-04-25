@@ -9,3 +9,7 @@ kind:
 !include ./foo.yaml
 ---
 !include ./bar.yaml
+---
+_exclude:
+  - "*"
+  - "!.copier-answers*"
