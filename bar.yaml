@@ -2,3 +2,6 @@ testbar:
   when: "{{ kind == 'bar' }}"
   type: str
   help: any string bar?
+  choices:
+    sunspec: sunspec
+    sunspec_plc: sunspec_plc

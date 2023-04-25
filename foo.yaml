@@ -2,3 +2,6 @@ testfoo:
   when: "{{ kind == 'foo' }}"
   type: str
   help: any string foo?
+  choices:
+    sunspec: sunspec
+    sunspec_plc: sunspec_plc

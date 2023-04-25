@@ -10,6 +10,4 @@ kind:
 ---
 !include ./bar.yaml
 ---
-_exclude:
-  - "*"
-  - "!.copier-answers*"
+
